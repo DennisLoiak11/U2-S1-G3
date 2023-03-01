@@ -1,0 +1,79 @@
+body{
+    color: maroon;
+}
+
+.container{
+    display: flex;
+}
+
+main h1{
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+header{
+    background-color: khaki;
+    height: 100vh;
+    margin-right: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+ul li{
+    background-color: orange;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+ul li:nth-of-type(3) a{
+    display: flex;
+    align-items: center;
+}
+
+ul li:nth-of-type(1) a{
+font-size: 1.2rem;
+}
+ul li:nth-of-type(2) a{
+font-size: 1.2rem;
+}
+ul li:nth-of-type(4) a{
+font-size: 1.2rem;
+}
+
+ul img{
+    max-width: 50px;
+    margin-right: 1rem;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: khaki;
+    padding: 10px;
+    width: 15%;
+}
+
+.card img{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 100%;
+}
+
+
+
