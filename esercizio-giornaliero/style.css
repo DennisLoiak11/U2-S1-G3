@@ -87,6 +87,7 @@ ul img{
 }
 
 .price{
+    text-align: end;
     align-self: center;
     padding: 5px;
     width: 50%;
